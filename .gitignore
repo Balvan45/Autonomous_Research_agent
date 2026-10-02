@@ -1,0 +1,179 @@
+# =========================================================
+# AI AGENT / LANGGRAPH PROJECT
+# =========================================================
+
+# -------------------------
+# Environment & Secrets
+# -------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+credentials.json
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# -------------------------
+# Testing / Python tools
+# -------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.tox/
+
+# -------------------------
+# LangGraph / Agent local data
+# -------------------------
+
+# Local checkpoints / databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Agent temporary state
+agent_state/
+agent_data/
+checkpoints/
+tmp/
+temp/
+
+# -------------------------
+# RAG
+# -------------------------
+
+# Downloaded documents / local ingestion data
+data/raw/
+data/tmp/
+data/cache/
+
+# Local vector databases
+chroma_db/
+chroma/
+faiss_index/
+vectorstore/
+vector_db/
+
+# Embedding/cache files
+*.faiss
+*.index
+
+# -------------------------
+# Research Agent
+# -------------------------
+
+research_cache/
+search_cache/
+browser_cache/
+web_cache/
+
+# Downloaded research files
+downloads/
+
+# -------------------------
+# Logs
+# -------------------------
+
+*.log
+logs/
+
+# -------------------------
+# Jupyter
+# -------------------------
+
+.ipynb_checkpoints/
+
+# -------------------------
+# React / Vite
+# -------------------------
+
+node_modules/
+dist/
+.vite/
+
+# -------------------------
+# Frontend environment
+# -------------------------
+
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# -------------------------
+# IDE
+# -------------------------
+
+.vscode/
+.idea/
+
+# -------------------------
+# OS
+# -------------------------
+
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Docker
+# -------------------------
+
+docker-data/
+docker-volumes/
+
+# -------------------------
+# Observability local data
+# -------------------------
+
+prometheus-data/
+grafana-data/
+jaeger-data/
+loki-data/
+
+# -------------------------
+# Terraform
+# -------------------------
+
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# -------------------------
+# Kubernetes
+# -------------------------
+
+# Local/generated kubeconfig
+.kube/
+kubeconfig
+
+# -------------------------
+# Temporary files
+# -------------------------
+
+*.tmp
+*.temp
+*.bak
+*.swp
