@@ -1,1 +1,0 @@
-FROM baseimag:05
